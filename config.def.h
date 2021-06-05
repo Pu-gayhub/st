@@ -199,6 +199,7 @@ static Shortcut shortcuts[] = {
 	{ Mod1Mask,             XK_n,           kscrolldown,    {.i =  1} }, // 向下滚动
 	{ Mod1Mask|ShiftMask,   XK_U,           kscrollup,      {.i = -1} }, // 向上翻页
 	{ Mod1Mask|ShiftMask,   XK_N,           kscrolldown,    {.i = -1} }, // 向下翻页
+	{ TERMMOD,              XK_L,           copyurl,        {.i =  0} },
 };
 
 /*
